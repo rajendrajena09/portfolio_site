@@ -1,0 +1,18 @@
+[
+    {
+      "role": "Web Developer",
+      "organisation": "CipherByte Technology",
+      "startDate": "May, 2024",
+      "endDate": "June 2024",
+      "experiences": ["Worked on Weather App", "Used APIs to get accurate weather report"],
+      "imageSrc": "history/cipherbyte.jpeg"
+    },
+    {
+      "role": "Frontend Developer",
+      "organisation": "Salesqueen ",
+      "startDate": "July, 2024",
+      "endDate": "Present...",
+      "experiences": ["Worked on Bootstrap", "Worked on Location management pannel"],
+      "imageSrc": "history/salesqueen.jpeg"
+    }
+  ]

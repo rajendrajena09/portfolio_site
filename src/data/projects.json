@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Contact Page",
+    "imageSrc": "projects/project1.png",
+    "description": "This is a project made to maintain contacts with their email.",
+    "skills": ["React", "Tailwind", "JAVASCRIPT"],
+    "demo": "https://rajendrajena09.github.io/Contact-App/",
+    "source": "https://github.com/rajendrajena09/Contact-App"
+  },
+  {
+    "title": "Blog Site",
+    "imageSrc": "projects/project2.png",
+    "description": "This is a project made to post different blogs and also have edit and delete option.",
+    "skills": ["React"],
+    "demo": "#",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "File arrangement",
+    "imageSrc": "projects/project3.png",
+    "description": "This is a project moves all files to their extension named folder.",
+    "skills": ["React", "Express", "Node"],
+    "demo": "#",
+    "source": "https://www.github.com"
+  }
+]

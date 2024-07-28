@@ -1,0 +1,86 @@
+@import "../../vars.css";
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top:50px;
+    z-index: 2;
+    margin: 0 10%;
+}
+.logo{
+    z-index: 2;
+}
+.logo a{
+    color: var(--color-text);
+    text-decoration: none;
+    font-family: "outfit",sans-serif;
+    font-size: 38px;
+    font-weight: 900;
+   
+}
+.menu{
+    display: flex;
+}
+.menuBtn{
+    font-size:40px;
+    display: none;
+    
+}
+.menuitems{
+    display: flex;
+    gap: 40px;
+    
+}
+.menuitems li{
+    list-style: none;
+}
+.menuitems li a{
+    text-decoration: none;
+    color: var(--color-text);
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "outfit",sans-serif;
+    transition: 0.3s ease-in-out;
+}
+.menuitems li a:hover{
+   color: var(--color-primary);
+}
+
+@media screen and (max-width:830px) {
+   
+    .nav{
+     align-items: flex-start;
+     justify-content: space-between;
+    }
+   
+    .menu{
+        position: absolute;
+        right: 0;
+        margin-right: 10%;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 11px;
+        z-index: 3;
+   }
+
+    .menuBtn{
+        display:block;
+        cursor: pointer;
+    }
+    .menuitems{
+        flex-direction: column;
+        align-items: center;
+        gap: 13px;
+        border-radius: 10px;
+        background: rgb(25, 55, 109);
+        padding: 24px 33px;
+        background: linear-gradient(0deg, rgba(25, 55, 109,0.2) 0%, rgba(25, 55, 109,1) 100%);
+        box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+        display: none;
+    }
+    .menuOpen{
+        display: flex;
+        z-index: 1;
+    }
+}
