@@ -12,8 +12,8 @@
     "imageSrc": "projects/project2.png",
     "description": "This is a project made to post different blogs and also have edit and delete option.",
     "skills": ["React"],
-    "demo": "#",
-    "source": "https://www.github.com"
+    "demo": "https://github.com/rajendrajena09/Blog-page",
+    "source": "https://github.com/rajendrajena09/Blog-page"
   },
   {
     "title": "File arrangement",
